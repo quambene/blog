@@ -9,6 +9,7 @@
 - [Read](#read)
 - [Alter](#alter)
 - [Constraints](#constraints)
+- [Views](#views)
 - [Performance](#performance)
 
 ### Data types
@@ -154,6 +155,26 @@ alter table table_name drop constraint table_name_column_name_unique;
 # Show constraints
 select * from pg_catalog.pg_constraint;
 select * from information_schema.columns where table_name = 'column_name';
+```
+
+### Views
+
+```sql
+# Show views
+select table_name
+from information_schema.views
+where table_schema = any (current_schemas(false));
+
+create view my_view as
+my_query
+
+create or replace view my_view
+as
+my_query
+
+alter view my_view rename to my_new_view;
+
+drop view if exists my_view;
 ```
 
 ### Performance
