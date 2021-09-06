@@ -105,6 +105,9 @@ where t.id = u.id;
 delete
 from table_name
 where id = 1;
+
+# delete all rows
+delete from table_name;
 ```
 
 ### Read
