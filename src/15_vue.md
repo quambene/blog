@@ -94,7 +94,7 @@ Vue.component('my-component-name', {
 
 ```html
 <i18n path="paragraph.text" tag="p">
-  <template v-slot:url>
+  <template v-slot:my-slot>
     <a href="https://example.com">{{ $t("paragraph.link") }}</a>
   </template>
 </i18n>
@@ -106,7 +106,7 @@ export default Vue.extend({
     messages: {
       de: {
         paragraph: {
-          text: "This is my {url}.",
+          text: "This is my {my-slot}.",
           link: "My url",
         },
       }
