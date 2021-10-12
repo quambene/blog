@@ -5,6 +5,7 @@
 - [Input binding](#input-binding)
 - [Event handling](#event-handling)
 - [Component](#component)
+- [i18n (component interpolation)](#i18n)
 
 ### Template
 
@@ -87,4 +88,28 @@ Vue.component('my-component-name', {
 
 ```html
 <my-component-name />
+```
+
+### i18n (component interpolation)
+
+```html
+<i18n path="paragraph.text" tag="p">
+  <template v-slot:url>
+    <a href="https://example.com">{{ $t("paragraph.link") }}</a>
+  </template>
+</i18n>
+```
+
+```javascript
+export default Vue.extend({
+  i18n: {
+    messages: {
+      de: {
+        paragraph: {
+          text: "This is my {url}.",
+          link: "My url",
+        },
+      }
+    }
+  }
 ```
