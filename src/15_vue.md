@@ -5,7 +5,7 @@
 - [Input binding](#input-binding)
 - [Event handling](#event-handling)
 - [Component](#component)
-- [i18n (component interpolation)](#i18n)
+- [i18n (component interpolation)](#i18n-component-interpolation)
 
 ### Template
 
