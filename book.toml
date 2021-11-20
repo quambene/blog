@@ -6,3 +6,5 @@ title = "quambene's blog"
 
 [output.html]
 site-url = "/blog/"
+default-theme = "light"
+preferred-dark-theme = "navy"
