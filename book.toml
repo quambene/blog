@@ -3,3 +3,6 @@ authors = ["quambene"]
 multilingual = false
 src = "src"
 title = "quambene's blog"
+
+[output.html]
+site-url = "/blog/"
