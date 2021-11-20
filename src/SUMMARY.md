@@ -1,6 +1,10 @@
 # Summary
 
-# Syntax reminder
+[Dev stack](./00_dev_stack.md)
+
+---
+
+[Syntax reminder](./00_syntax_reminder.md)
 
 - [Python](./01_python.md)
 - [Typescript](./02_typescript.md)
