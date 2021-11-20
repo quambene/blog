@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD001 -->
+
 # Postgres
 
 - [Data types](#data-types)

@@ -1,3 +1,5 @@
+<!-- markdownlint-disable MD001 -->
+
 # Nginx
 
 - [Port](#port)

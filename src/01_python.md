@@ -1,3 +1,4 @@
+<!-- markdownlint-disable MD001 -->
 # Python
 
 - [Print](#print)
