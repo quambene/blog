@@ -11,6 +11,7 @@
 - [Read](#read)
 - [Alter](#alter)
 - [Constraints](#constraints)
+- [Keys](#keys)
 - [Views](#views)
 - [Performance](#performance)
 
@@ -160,6 +161,13 @@ alter table table_name drop constraint table_name_column_name_unique;
 # Show constraints
 select * from pg_catalog.pg_constraint;
 select * from information_schema.columns where table_name = 'column_name';
+```
+
+### Keys
+
+``` sql
+# primary key info
+select * from <my_table>_id_seq;
 ```
 
 ### Views
