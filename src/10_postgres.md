@@ -14,6 +14,8 @@
 - [Keys](#keys)
 - [Views](#views)
 - [Performance](#performance)
+- [Functions](#functions)
+- [Commmon table expressions (CTE)](#common-table-expressions-cte)
 
 ### Data types
 
@@ -195,4 +197,19 @@ drop view if exists my_view;
 ```sql
 explain select * from table_name;
 explain (analyse true, buffers true) [query]
+```
+
+### Functions
+
+``` sql
+# return first non-null value
+coalesce(arg1, arg2)
+```
+
+### Commmon table expressions (CTE)
+
+``` sql
+with heavy_query(name) as (select * from heavy_table)
+select (select name from heavy_query)
+from table_name;
 ```
