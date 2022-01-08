@@ -267,8 +267,17 @@ fn do_something(x: &MyTrait) { // trait object &MyTrait
 }
 
 // trait bounds
-fn my_function<T: MyTraitBound>(t: T) {}
 struct MyStruct<T: MyTraitBound>(T);
+
+fn my_function<T: MyTraitBound>(t: T) {}
+
+fn my_function(t: impl MyTraitBound) {}
+
+fn my_function<T, U>(t: &T, u: &U) 
+where 
+    T: Display + Clone,
+    U: AsRef<str>,
+{}
 
 // Supertrait (a superset of another trait)
 trait MyTrait: MySuperTrait {
