@@ -14,6 +14,7 @@
 - [Async](#async)
 - [Concurrency](#concurrency)
 - [Error handling](#error-handling)
+- [Null safety](#null-safety)
 
 ### Print
 
@@ -43,6 +44,9 @@ String x;
 int x:
 double x;
 bool x;
+Object? x; // referencing any object, including null
+Object x; // referencing any object, excluding null
+dynamic x; // disables static type-checking
 
 // List
 var myList = []; // initialize empty list
@@ -161,7 +165,13 @@ class MyClass {
     }
 
     // parameterized constructor (short form)
+    MyClass(this.myProperty1, this.myProperty2);
+
+    // named optional parameters
     MyClass({this.myProperty1, this.myProperty2});
+
+    // named required parameters
+    MyClass({required this.myProperty1, required this.myProperty2});
 
     // initializer list
     MyClass(String param1, String param2)
@@ -172,6 +182,12 @@ class MyClass {
     MyClass.myConstructor(String param) {
         // ...
     }
+
+    factory MyClass.myConstructor(String param) {
+        return MyClass(
+            //...
+        );
+    } 
 
     // static method
     static void myStaticMethod() {
@@ -279,12 +295,46 @@ Isolate.spawn(spawned_function2, message2);
 
 ```dart
 try {
-   // code that might throw an exception
+    // code that might throw an exception
 }
-on Exception1 {
-   // code for handling exception1
+on FormatException catch(err) {
+    // handle FormatException
+}
+on Exception catch(err) {
+    // handle other exceptions
 }
 catch (err) {
-   // code for handling other exceptions
+    // propagate error
+    rethrow
+}
+```
+
+### Null safety
+
+``` dart
+String myString;
+String? myNullableString;
+
+class MyClass {
+    final String myProperty;
+    late String name;
+
+    MyClass(required this.myProperty)
+}
+
+myObject?.myName
+myObject!.myName
+
+class MyClass {
+    String? myProperty;
+
+    void myMethod() {
+        // type promotion (to a non-nullable type)
+        final myProperty = this.myProperty;
+        
+        if (myProperty != null) {
+            //...
+        }
+    }
 }
 ```
