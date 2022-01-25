@@ -72,6 +72,10 @@ let x: char = 'ℤ'; // unicode character
 let x: &[T]; // slice
 let x: &mut [T]; // mutable slice
 
+// Type alias
+type MyId = u32;
+type Point = (u8, u8);
+
 // Array
 let arr: [i32; 5] = [1, 2, 3, 4, 5];
 let first_arr = arr[0];
