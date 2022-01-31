@@ -1,6 +1,6 @@
 # Summary
 
-[Dev stack](./00_dev_stack.md)
+[Tech stack](./00_tech_stack.md)
 
 ---
 
