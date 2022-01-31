@@ -1,6 +1,6 @@
 # Dev stack
 
-Some of my projects are showcased in the following.
+Some of my projects are showcased as follows.
 
 ## Pigeon
 
