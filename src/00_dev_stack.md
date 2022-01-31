@@ -1,3 +1,8 @@
-<!-- markdownlint-disable MD041 -->
+<!-- markdownlint-disable MD033 MD041 -->
 
-New url: [https://quambene.github.io/blog/00_tech_stack.html](https://quambene.github.io/blog/00_tech_stack.html)
+<head>
+  <meta http-equiv="refresh" content="5; URL=https://quambene.github.io/blog/00_tech_stack.html" />
+</head>
+<body>
+  <p>If you are not redirected in five seconds, <a href="https://quambene.github.io/blog/00_tech_stack.html">click here</a>.</p>
+</body>
