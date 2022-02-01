@@ -6,5 +6,6 @@ title = "quambene's blog"
 
 [output.html]
 site-url = "/blog/"
+git-repository-url = "https://github.com/quambene/blog"
 default-theme = "light"
 preferred-dark-theme = "navy"
