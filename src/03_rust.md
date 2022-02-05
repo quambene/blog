@@ -123,6 +123,7 @@ let red = Color::Red;
 // Struct (custom data type)
 struct MyStruct; // unit struct
 struct MyStruct(i32, i32); // tuple struct
+struct Email(String) // newtype pattern
 
 struct User {
     username: String,
