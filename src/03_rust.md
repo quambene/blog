@@ -271,6 +271,10 @@ fn do_something(x: &MyTrait) { // trait object &MyTrait
     x.my_method();
 }
 
+impl dyn MyTrait {
+    // ...
+}
+
 // trait bounds
 struct MyStruct<T: MyTraitBound>(T);
 
