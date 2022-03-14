@@ -25,7 +25,7 @@ Some of my projects are showcased as follows.
 
 ## Blockchain demo
 
-- functional description: toy project on the Ethereum blockchain
+- functional description: prototyping on the Ethereum blockchain
 - technical description: smart contract written in Solidity and deployed on the Ethereum mainnet
 - tech stack: Solidity
 - website: [https://startuptwister.com/register](https://startuptwister.com/register)
