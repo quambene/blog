@@ -1,4 +1,4 @@
-# Tech stack
+# Projects
 
 Some of my projects are showcased as follows.
 
@@ -7,25 +7,25 @@ Some of my projects are showcased as follows.
 - functional description: open-source email automation written in Rust
 - technical description: command line tool
 - tech stack: Rust
-- link: [https://github.com/quambene/pigeon-rs](https://github.com/quambene/pigeon-rs)
+- website: [https://github.com/quambene/pigeon-rs](https://github.com/quambene/pigeon-rs)
 
 ## Vacuna
 
 - functional description: smart vaccination app
 - technical description: mobile development with focus on UX/UI
 - tech stack: Flutter+Rust
-- link: [https://vacuna.io](https://vacuna.io)
+- website: [https://vacuna.io](https://vacuna.io)
 
 ## Turtle
 
 - functional description: community for finding the best developer tools
 - technical description: web development with proper responsive design on desktop, tablet and mobile
 - tech stack: Angular+Rust
-- link: [https://turtle.community](https://turtle.community)
+- website: [https://turtle.community](https://turtle.community)
 
 ## Blockchain demo
 
 - functional description: toy project on the Ethereum blockchain
 - technical description: smart contract written in Solidity and deployed on the Ethereum mainnet
 - tech stack: Solidity
-- link: [https://startuptwister.com/register](https://startuptwister.com/register)
+- website: [https://startuptwister.com/register](https://startuptwister.com/register)
