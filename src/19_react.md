@@ -2,7 +2,6 @@
 
 # React
 
-- [JSX](#jsx)
 - [Components](#components)
   - [Class components](#class-components)
   - [Function components](#function-components)
