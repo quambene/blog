@@ -1,6 +1,8 @@
 # Summary
 
-[Projects](./projects.md)
+[Showcases](./showcases.md)
+
+[Skills](./skills.md)
 
 ---
 

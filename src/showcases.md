@@ -1,4 +1,4 @@
-# Projects
+# Showcases
 
 Some of my projects are showcased as follows.
 
@@ -12,7 +12,7 @@ Some of my projects are showcased as follows.
 ## Vacuna
 
 - functional description: smart vaccination app
-- technical description: mobile development with focus on UX/UI
+- technical description: mobile development with focus on UX/UI design
 - tech stack: Flutter+Rust
 - website: [https://vacuna.io](https://vacuna.io)
 
