@@ -11,8 +11,8 @@ Angular, Vue, Nuxt, Flutter
 **UX/UI Design**<br/>
 HTML, CSS, Widgets (Flutter), Figma, Inkscape, GIMP
 
-**Databases**<br/>
-SQL, Postgres
+**Databases & Spreadsheets**<br/>
+SQL, Postgres, LibreOffice Base, LibreOffice Calc, Microsoft Access, Microsoft Excel
 
 **Server & Cloud Computing**<br/>
 Debian, Ubuntu, Nginx, AWS, gcloud
