@@ -1,4 +1,4 @@
-# pigeon-rs v0.1.0: Open source email automation written in Rust
+# Pigeon Release v0.1.0: Open source email automation written in Rust
 
 I found that email automation solutions like Mailchimp or ConvertKit are quite expensive. I was using Pigeon for my projects already a while ago, but figured it could be more useful as an open source project.
 

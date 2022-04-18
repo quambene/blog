@@ -29,8 +29,8 @@
   - [Flutter](./syntax_reminder/18_flutter.md)
   - [React](./syntax_reminder/19_react.md)
 - [Article](./00_article.md)
-  - [pigeon-rs v0.1.0](./article/01_pigeon-rs_v0.1.0.md)
-  - [pigeon-rs v0.2.0](./article/02_pigeon-rs_v0.2.0.md)
+  - [Pigeon Release v0.1.0](./article/01_pigeon_release_v0.1.0.md)
+  - [Pigeon Release v0.2.0](./article/02_pigeon_release_v0.2.0.md)
 
 ---
 

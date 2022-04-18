@@ -1,4 +1,4 @@
-# pigeon-rs v0.2.0: Send email to arbitrary SMTP endpoints
+# Pigeon Release v0.2.0: Send email to arbitrary SMTP endpoints
 
 [Pigeon](https://github.com/quambene/pigeon-rs)  is a command line tool for cheap and efficient email automation written in Rust.
 
