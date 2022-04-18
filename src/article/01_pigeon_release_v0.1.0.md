@@ -159,4 +159,6 @@ Currently, Pigeon is based on AWS Simple Email Service as email provider which i
 
 Currently, you have to connect your database and your email provider via environment variables which is not quite user-friendly. It's working for me quite well, but I would be interested in your feedback for potential improvements.
 
+Edit: Polars is not exactly the Rust equivalent of Python's pandas. There is a Python version of polars, too. Here is a benchmark for both.
+
 _First published on [Reddit](https://www.reddit.com/r/rust/comments/qy85sg/pigeonrs_open_source_email_automation_written_in/) (2021-11-20)._
