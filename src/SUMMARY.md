@@ -8,7 +8,7 @@
 
 ---
 
-- [Syntax reminder](./syntax_reminder.md)
+- [Syntax reminder](./syntax_reminder/README.md)
   - [Python](./syntax_reminder/01_python.md)
   - [Typescript](./syntax_reminder/02_typescript.md)
   - [Rust](./syntax_reminder/03_rust.md)
@@ -28,7 +28,7 @@
   - [Angular](./syntax_reminder/17_angular.md)
   - [Flutter](./syntax_reminder/18_flutter.md)
   - [React](./syntax_reminder/19_react.md)
-- [Article](./article.md)
+- [Article](./article/README.md)
   - [Pigeon Release v0.2.0](./article/02_pigeon_release_v0.2.0.md)
   - [Pigeon Release v0.1.0](./article/01_pigeon_release_v0.1.0.md)
 
