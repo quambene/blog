@@ -6,13 +6,13 @@
 Python, Rust, C/C++, TypeScript, JavaScript, Dart, Solidity
 
 **Web & Mobile Frameworks**<br/>
-Angular, Vue, Nuxt, Flutter
+Angular, Vue, Nuxt, Flutter, Django
 
 **UX/UI Design**<br/>
 HTML, CSS, Widgets (Flutter), Figma, Inkscape, GIMP
 
 **Databases & Spreadsheets**<br/>
-SQL, Postgres, LibreOffice Base, LibreOffice Calc, Microsoft Access, Microsoft Excel
+SQL, Postgres, SQLite, LibreOffice Base, LibreOffice Calc, Microsoft Access, Microsoft Excel
 
 **Server & Cloud Computing**<br/>
 Debian, Ubuntu, Nginx, AWS, gcloud
